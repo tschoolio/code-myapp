@@ -1,0 +1,20 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Labas, pasauli!
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Kitas tekstas</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-button color="primary" expand="full" (click)="showAlert()">Show Alert</ion-button>
+  <ion-button color="secondary" expand="full" (click)="presentAlertConfirm()">Confirm test</ion-button>
+
+  <app-explore-container name="Kur dingai?"></app-explore-container>
+</ion-content>
